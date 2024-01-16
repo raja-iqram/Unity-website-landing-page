@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNITY</title>
+    <!-- Link stylesheet  -->
+    <link rel="stylesheet" href="./Assest/style.css">
+    <!-- Stylesheet link End -->
+
+    <!-- Bootstrap 5 Stylesheet CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Bootstrap 5 Stylesheet CDN End-->
+
+    <!-- Google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Google fonts CDN End-->
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Bootstrap Icons CDN End-->
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark" aria-label="Dark offcanvas navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand bg-dark px-4" href="#" style="margin-left: 46%;">UNITY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-transparent" tabindex="-1" id="offcanvasNavbarDark"
+                aria-labelledby="offcanvasNavbarDarkLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact-us">Contact us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <button class="btn btn-dark" type="submit">Join us</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End-->
+
+    <!-- Hero Section -->
+    <section class="main-section" id="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center py-3">
+                    <i class="bi bi-twitter px-2"></i>
+                    <i class="bi bi-facebook px-2"></i>
+                    <i class="bi bi-instagram px-2"></i>
+                    <i class="bi bi-youtube px-2"></i>
+                </div>
+            </div>
+
+            <!-- Verticle line -->
+            <div class="row">
+                <div class="d-flex justify-content-center" style="height: 50px;">
+                    <div class="vr"></div>
+                </div>
+            </div>
+            <!-- Verticle line End-->
+
+            <div class="position-relative overflow-hidden p-3 p-md-5 text-center">
+                <div class="col-md-8 heading text-center justify-content-center">
+                    <h1>It Started with an idea.</h1>
+                    <a href="#" class="text-decoration-none text-black"><i
+                            class="bi bi-play-circle  text-dark px-2"></i>Watch intro video</a>
+                    <div class="col-lg-4 m-auto py-3">
+                        <a href="#">
+                            <div class="btn btn-dark px-5 discover">
+                                DISCOVER
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="product-device shadow-sm d-none d-md-block"></div>
+                <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End-->
+
+
+
+    <!-- Dual Sliders Section-->
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <div class="col-lg-4 col-md-12 col-12 laptop-slider">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner" id="carousel-item-slider">
+                        <div class="carousel-item bg-primary active" id="">
+                            <img src="./Assest/Images/laptop/laptop-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="carousel-item bg-primary">
+                            <img src="./Assest/Images/laptop/laptop-2.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider two -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <h5 class="services">Services</h5>
+                <div class="section my-2">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button indicator" data-bs-target="#myCarousel" id="indicator-1"
+                                data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                            </button>
+                            <button type="button indicator" data-bs-target="#myCarousel" id="indicator-2"
+                                data-bs-slide-to="1" aria-label="Slide 2">
+                            </button>
+
+                            <button type="button indicator" data-bs-target="#myCarousel" id="indicator-3"
+                                data-bs-slide-to="2" aria-label="Slide 3">
+                            </button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h1 class="Bring">We Brings a <br> wounderful <span class="artistic">artistic</span>
+                                    <br> sence to
+                                    project
+                                </h1>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="Bring">We Brings a <br> wounderful <span
+                                        class="artistic text-success">artistic</span>
+                                    <br> sence to
+                                    project
+                                </h1>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="Bring">We Brings a <br> wounderful <span
+                                        class="artistic text-primary">artistic</span>
+                                    <br> sence to
+                                    project
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dual slider End -->
+
+
+    <!-- Full Screen Slider  -->
+    <section>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators" id="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" id="main-slide">
+                <div class="carousel-item active" id="slide-one" data-bs-interval="10000">
+                    <div class="carousel-caption d-md-block text-start">
+                        <h5>Designer & coder</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum explicabo, sapiente
+                            deleniti libero impedit eligendi iusto, vero error dolorem placeat iure inventore tempora
+                            illum, sit ea. Reprehenderit aperiam voluptatum adipisci.</p>
+                        <div class="col-4 mt-5 py-4">
+                            <img src="./Assest/Images/testimonial-icon/testimonial.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="slide-two" data-bs-interval="2000">
+                    <div class="carousel-caption d-md-block text-start">
+                        <h5>Graphic Designer</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum explicabo, sapiente
+                            deleniti libero impedit eligendi iusto, vero error dolorem placeat iure inventore tempora
+                            illum, sit ea. Reprehenderit aperiam voluptatum adipisci.</p>
+                        <div class="col-4 mt-5 py-4">
+                            <img src="./Assest/Images/testimonial-icon/testimonial.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="slide-three">
+                    <div class="carousel-caption d-md-block text-start">
+                        <h5>Video Editor</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum explicabo, sapiente
+                            deleniti libero impedit eligendi iusto, vero error dolorem placeat iure inventore tempora
+                            illum, sit ea. Reprehenderit aperiam voluptatum adipisci.</p>
+                        <div class="col-4 mt-5 py-4">
+                            <img src="./Assest/Images/testimonial-icon/testimonial.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Full Screen Slider End-->
+
+
+    <div class="container mt-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-6 col-md-6">
+                <h2 class="tab-heading">What we have done.</h2>
+                <p class="text-center">our passion is to create solution which could give that extra value to your
+                    product services or to business in general.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- TABS -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-8 col-12 text-center">
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+
+                    <li class="nav-item px-4" role="presentation">
+                        <button class="nav-link active text-black" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item px-4" role="presentation">
+                        <button class="nav-link text-black" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-web" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Web Design</button>
+                    </li>
+                    <li class="nav-item px-4" role="presentation">
+                        <button class="nav-link text-black" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-graphic" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Graphic Design</button>
+                    </li>
+                </ul>
+
+                <!-- All -->
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+
+                        <div class="row py-2 justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img src="./Assest/Images/Tabs content/pic-1.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-12 all-img-1" style="padding-top: 50px;">
+                                <img src="./Assest/Images/Tabs content/pic-2.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="row py-2 justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-12 all-img-2" style="margin-top: -50px;">
+                                <img src="./Assest/Images/Tabs content/pic-1.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-12 all-img-4">
+                                <img src="./Assest/Images/Tabs content/pic-2.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="row py-2 justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-12 all-img-3" style="margin-top: -50px;">
+                                <img src="./Assest/Images/Tabs content/pic-1.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-12 all-img-5">
+                                <img src="./Assest/Images/Tabs content/pic-2.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web-Desing -->
+                    <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <div class="row py-2 justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img src="./Assest/Images/Tabs content/pic-1.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-12 all-img-1" style="padding-top: 50px;">
+                                <img src="./Assest/Images/Tabs content/pic-2.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="row py-2 justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-12 all-img-2" style="margin-top: -50px;">
+                                <img src="./Assest/Images/Tabs content/pic-1.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-12 all-img-4">
+                                <img src="./Assest/Images/Tabs content/pic-2.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Graphic-Desing -->
+                    <div class="tab-pane fade" id="pills-graphic" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+                        <div class="row py-2 justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img src="./Assest/Images/Tabs content/pic-1.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-12 all-img-1" style="padding-top: 50px;">
+                                <img src="./Assest/Images/Tabs content/pic-2.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tabs end -->
+
+
+    <!-- Cards Section -->
+    <div class="container mt-5">
+        <div class="row justify-content-center text-center py-5">
+            <div class="col-lg-6 col-md-6">
+                <h2 class="tab-heading">Your money, <br>is yours, we don't Take a cut.</h2>
+                <p class="text-center">our passion is to create solution which could give that extra value to your
+                    product services or to business in general.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Verticle line -->
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center" style="height: 50px;;">
+                <div class="vr"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Verticle line End-->
+
+    <section class="py-5" id="services">
+        <div class="row card-row">
+            <div class="col-lg-4 col-md-4 col-12 card-column">
+                <div class="card px-4 py-4">
+                    <div class="card-image text-center">
+                        <i class="bi bi-mouse2"></i>
+                    </div>
+
+                    <div class="card-content text-center">
+                        <h2>Desing</h2>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eum voluptate quis non vitae
+                        laudantium architecto facere doloribus neque commodi.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 card-column">
+                <div class="card px-4 py-4">
+                    <div class="card-image text-center">
+                        <i class="bi bi-file-earmark-code"></i>
+                    </div>
+
+                    <div class="card-content text-center">
+                        <h2>Development</h2>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eum voluptate quis non vitae
+                        laudantium architecto facere doloribus neque commodi.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 card-column">
+                <div class="card px-4 py-4">
+                    <div class="card-image text-center">
+                        <i class="bi bi-display"></i>
+                    </div>
+
+                    <div class="card-content text-center">
+                        <h2>Deployment</h2>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eum voluptate quis non vitae
+                        laudantium architecto facere doloribus neque commodi.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards 2nd row -->
+        <div class="row card-row">
+            <div class="col-lg-4 col-md-4 col-12 card-column">
+                <div class="card px-4 py-4">
+                    <div class="card-image text-center">
+                        <i class="bi bi-menu-button-wide-fill"></i>
+                    </div>
+
+                    <div class="card-content text-center">
+                        <h2>Ui / Ux</h2>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eum voluptate quis non vitae
+                        laudantium architecto facere doloribus neque commodi.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 card-column">
+                <div class="card px-4 py-4">
+                    <div class="card-image text-center">
+                        <i class="bi bi-phone"></i>
+                    </div>
+
+                    <div class="card-content text-center">
+                        <h2>iso development</h2>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eum voluptate quis non vitae
+                        laudantium architecto facere doloribus neque commodi.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 card-column">
+                <div class="card px-4 py-4">
+                    <div class="card-image text-center">
+                        <i class="bi bi-bar-chart-line"></i>
+                    </div>
+
+                    <div class="card-content text-center">
+                        <h2>marketing</h2>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eum voluptate quis non vitae
+                        laudantium architecto facere doloribus neque commodi.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cards Section End-->
+
+    <!-- Man image section  -->
+    <section class="my-5" id="orange">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-8 col-12 man-image">
+                    <h5><a href="#" class="text-decoration-none text-black"><i class="bi bi-play-circle"></i> Watch
+                            intro video</a></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Man image section End-->
+
+    <!-- We love our clients -->
+    <div class="container py-3">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-6 col-md-6">
+                <h2 class="tab-heading">We love our Clients</h2>
+                <p class="text-center fs-5">We take provide in delivering intelligent Designs and Engaging Experience
+                    for
+                    clients all over the world.</p>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- Verticle line -->
+      <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center" style="height: 50px;;">
+                <div class="vr"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Verticle line End-->
+
+
+    <!-- Slider with clients images -->
+    <div class="container mt-4">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" style="text-align: center;">
+            <div class="carousel-indicators justify-content-center m-auto" id="carousel-indicators-bullets">
+                <button type="button" data-bs-target="#carouselExampleCaptions" id="indicator-one" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" id="indicator-two" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="col-lg-6 col-md-6 col-12 m-auto">
+                        <h5>Thanks so much for awesome customer service. So many companies, large and
+                            small, have a lot to earn from you. Great job!</h5>
+                    </div>
+                    <h5 class="text-danger mt-5">REBECCA MATTHEWS</h5>
+                    <h5><a href="#" class="text-decoration-none">CEO-UNITY.COM</a></h5>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="col-lg-6 col-md-6 col-12 m-auto">
+                        <h5>Thanks so much for awesome customer service. So many companies, large and
+                            small, have a lot to earn from you. Great job!</h5>
+                    </div>
+                    <h5 class="text-success mt-5">REBECCA MATTHEWS</h5>
+                    <h5><a href="#" class="text-decoration-none">CEO-UNITY.COM</a></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Slider with clients images End-->
+
+
+
+    <!-- Group images section -->
+    <section class="group-image">
+        <img src="./Assest/Images/Group image/image.png" style="width: 100%;" alt="">
+    </section>
+    <!-- Group images section End-->
+
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-2 col-md-2 col-12 text-center multiple-logo">
+                <h1><Strong>SID LEE</Strong></h1>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-12 text-center multiple-logo">
+                <i class="bi bi-apple"></i>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-12 text-center multiple-logo">
+                <h1 class="tumblr"><Strong>tumblr</Strong></h1>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-12 text-center multiple-logo">
+                <h1><Strong>HUGE</Strong></h1>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-12 text-center multiple-logo">
+                <h1><Strong><i class="bi bi-square-fill"></i> R/GA</Strong></h1>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-12 text-center multiple-logo">
+                <h1>rozorfish</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer section -->
+    <section class="footer-section">
+        <div class="container py-5">
+            <div class="row py-2" style="border-bottom: 1px solid white;">
+                <div class="col-lg-3 col-md-3 col-12">
+                    <h5 class="text-white">LINKS</h5>
+                    <ul class="footer-list">
+                        <li>
+                            <a class="nav-link text-white" aria-current="page" href="#"><i
+                                    class="bi bi-chevron-right"></i>Home</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-link text-white" aria-current="page" href="#"><i
+                                    class="bi bi-chevron-right"></i>About us</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-link text-white" aria-current="page" href="#"><i
+                                    class="bi bi-chevron-right"></i>Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-lg-3 col-md-3 col-12 contact">
+                    <h5 class="text-white">CONTACT</h5>
+                    <p class="text-white"><i class="bi bi-geo-alt-fill"></i>Home</p>
+                    <p class="text-white"><i class="bi bi-envelope-fill"></i>About us</p>
+                    <p class="text-white"><i class="bi bi-telephone-fill"></i>Contact us</p>
+                </div>
+
+                <!-- Form -->
+                <div class="col-lg-3 col-md-3 col-12" id="contact-us">
+                    <form action="/myaction.php" id="form">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                            <label for="floatingInput">Name</label>
+                        </div>
+
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatinginputvalue" placeholder="Email">
+                            <label for="floatingemail">Email</label>
+                        </div>
+
+                        <div class="form-floating py-3">
+                            <textarea class="form-control" placeholder="Comments" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Comments</label>
+                        </div>
+
+                        <a href="/myaction.php"><div class="btn btn-outline-danger rounded-0 px-4" type="submit" id="submit-button">Send
+                        </div></a>
+                    </form>
+                </div>
+
+                <!-- INSTAGRAM FEEDS -->
+                <div class="col-lg-3 col-md-3 col-12" id="INSTAGRAM">
+                    <h5 class="text-white">INSTAGRAM FEEDS</h5>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-4 d-flex INSTAGRAM-FEEDS">
+                            <img src="./Assest/Images/Random-images/img-1.jpg" class="img-fluid" alt="">
+                            <img src="./Assest/Images/Random-images/img-2.jpg" class="img-fluid" alt="">
+                            <img src="./Assest/Images/Random-images/img-3.jpg" class="img-fluid" alt="">
+                            <img src="./Assest/Images/Random-images/img-3.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-4 d-flex INSTAGRAM-FEEDS" id="INSTAGRAM-2">
+                            <img src="./Assest/Images/Random-images/img-1.jpg" class="img-fluid" alt="">
+                            <img src="./Assest/Images/Random-images/img-2.jpg" class="img-fluid" alt="">
+                            <img src="./Assest/Images/Random-images/img-3.jpg" class="img-fluid" alt="">
+                            <img src="./Assest/Images/Random-images/img-3.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile-Screen Footer -->
+            <div class="container mt-4" id="mobile-footer">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h5 class="text-white heading-5">© UNITY. All Rights Reserved.  <span class="px-3">Term of use</span>  <span class="px-3">Policy</span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Script CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
